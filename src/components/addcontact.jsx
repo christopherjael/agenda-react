@@ -78,7 +78,7 @@ export default function AddContact(props) {
           <Button auto flat color="error" onClick={() => setVisible(false)}>
             Close
           </Button>
-          <Button auto onClick={() => setVisible(false)}>
+          <Button auto onClick={() => addContact()}>
             Agree
           </Button>
         </Modal.Footer>
